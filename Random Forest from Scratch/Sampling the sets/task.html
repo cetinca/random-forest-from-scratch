@@ -1,0 +1,15 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>A significant part of the Random forest model is the bootstrap sampling. We assume you are already familiar with the concept, so we will make a simple reminder: to make this sampling, we randomly sample our dataset <strong>with replacement</strong>.</p>
+<p>In this stage, create a function with the data as a parameter and return a bootstrap sample. We recommend using the <code class="java">np.random.choice</code> to create a mask and then return only the masked objects. You can take <a href="https://stackoverflow.com/questions/10274774/python-elegant-and-efficient-ways-to-mask-a-list" rel="noopener noreferrer nofollow" target="_blank">this approach</a> as an example. We expect that the function is called something like <code class="java">create_bootstrap</code>.</p>
+<p></p><div class="alert alert-warning">In this stage, you'll deal with randomness. For the sake of our tests, use the <code class="java">np.random.choice</code> function once with the <code class="java">52</code> seed.</div>
+<h5 id="objectives">Objectives</h5>
+<ol>
+<li>Create the <code class="java">create_bootstrap</code> function;</li>
+<li>Use it to create a bootstrap sample from your train data and print the<strong> first ten items</strong> of the resulting sample <code class="java">y</code>-s.</li>
+</ol>
+<h5 id="example">Example</h5>
+<p><strong>Example 1</strong>: <em>example of the output</em></p>
+<pre><code class="language-no-highlight">[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]</code></pre>
+
+</div>
